@@ -1,10 +1,15 @@
 body {
   font-family: "Quicksand", sans-serif;
-  margin: 0rem 1rem;
+  margin: 0rem;
   text-align: center;
 }
+header {
+  margin: 0 1rem;
+}
 
-header h1 {
+header a {
+  text-decoration: none;
+  color: rgb(90, 149, 236);
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -23,6 +28,30 @@ header div {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#header-two {
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+aside {
+  color: white;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#aside-contact-links img {
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+}
+
+#set-back {
+  background-color: rgb(90, 149, 236);
+  padding: 3rem;
 }
 
 main p {
@@ -44,9 +73,38 @@ li {
   list-style: none;
 }
 
+#calculator-section {
+  margin: 3rem 0;
+}
+
 #contact-links img {
-  margin-top: 6rem;
+  margin: 3rem 0;
   width: 2rem;
   height: 2rem;
   padding: 1rem;
+}
+
+footer {
+  margin: 7.2rem 0 0 0;
+  text-align: left;
+  font-size: 1rem;
+  background-color: rgb(90, 149, 236);
+  padding: 3.2rem;
+  border-radius: 0.2rem;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+footer p {
+  display: inline;
+  margin-right: 1rem;
+}
+
+footer span {
+  margin-left: 27rem;
 }
