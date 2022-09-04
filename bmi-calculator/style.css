@@ -1,9 +1,9 @@
 :root {
-  --background-color: #554994;
+  --background-color: rgb(90, 149, 236);
   --h1-color: rgb(0, 0, 0);
-  --primary-color: #e8f9fd;
-  --hover-bg-color: #4f0cb3;
-  --input-focus-color: #2a0944;
+  --primary-color: #ffffff;
+  --hover-bg-color: rgb(10, 54, 119);
+  --btn-primary-color: rgb(24, 83, 172);
 }
 body {
   text-align: center;
@@ -20,7 +20,7 @@ h1 {
   box-shadow: 2px 2px 6px rgba(29, 26, 27, 0.4);
   padding: 1.3rem;
   width: 32rem;
-  margin: 10rem auto 0 auto;
+  margin: 4rem auto 0 auto;
   background-color: var(--background-color);
   color: var(--primary-color);
 }
@@ -33,10 +33,7 @@ input {
 }
 
 input:focus {
-  color: var(--input-focus-color);
   padding: 1.1rem 0;
-  text-align: center;
-  font-size: 1rem;
 }
 
 button {
@@ -44,7 +41,7 @@ button {
   border: 1px solid var(--background-color);
   border-radius: 0.2rem;
   color: rgb(230, 214, 214);
-  background-color: #a66cff;
+  background-color: var(--btn-primary-color);
   margin-bottom: 1rem;
 }
 
@@ -62,6 +59,6 @@ button:hover {
   font-weight: bold;
   border-radius: 0.12rem;
   display: none;
-  transform: scale(1.3);
+  transform: scale(1.1);
   box-shadow: 2px 2px 6px rgba(72, 6, 88, 0.2);
 }

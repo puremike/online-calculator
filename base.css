@@ -1,10 +1,24 @@
+:root {
+  --background-color: rgb(90, 149, 236);
+}
+
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0rem;
   text-align: center;
 }
 header {
-  margin: 0 1rem;
+  margin: 0;
+}
+
+#header-two a,
+header img {
+  transition: transform 0.5s ease-out 0.2s;
+}
+
+#header-two a:hover,
+header img:hover {
+  transform: scale(1.1);
 }
 
 header a {
@@ -36,6 +50,9 @@ header div {
   margin: 0;
 }
 
+#header-two img {
+  background-color: var(--background-color);
+}
 aside {
   color: white;
   display: none;
@@ -49,8 +66,14 @@ aside {
   padding: 1rem;
 }
 
+#aside-contact-links img:hover,
+#contact-links img:hover #aside-contact-links img:hover,
+#contact-links img:hover {
+  transform: scale(1.2);
+}
+
 #set-back {
-  background-color: rgb(90, 149, 236);
+  background-color: var(--background-color);
   padding: 3rem;
 }
 
@@ -78,17 +101,18 @@ li {
 }
 
 #contact-links img {
-  margin: 3rem 0;
+  margin: 5rem 0;
   width: 2rem;
   height: 2rem;
   padding: 1rem;
+  transition: transform 0.3s ease-in 0.1s;
 }
 
 footer {
-  margin: 7.2rem 0 0 0;
+  margin: 4rem 0 0 0;
   text-align: left;
   font-size: 1rem;
-  background-color: rgb(90, 149, 236);
+  background-color: var(--background-color);
   padding: 3.2rem;
   border-radius: 0.2rem;
   color: white;
