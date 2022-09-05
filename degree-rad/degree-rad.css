@@ -20,7 +20,7 @@ h1 {
   box-shadow: 2px 2px 6px rgba(29, 26, 27, 0.4);
   padding: 1.3rem;
   width: 32rem;
-  margin: 4rem auto 0 auto;
+  margin: 3rem auto 0 auto;
   background-color: var(--background-color);
   color: var(--primary-color);
 }
@@ -49,7 +49,7 @@ button:hover {
   background-color: var(--hover-bg-color);
 }
 
-#BMI-result {
+#result {
   margin: 1rem auto;
   width: 60%;
   padding: 1.2rem;
@@ -61,4 +61,12 @@ button:hover {
   display: none;
   transform: scale(1.1);
   box-shadow: 2px 2px 6px rgba(72, 6, 88, 0.2);
+}
+
+footer {
+  margin-top: 7rem;
+}
+
+#contact-links {
+  margin-top: 5rem;
 }
