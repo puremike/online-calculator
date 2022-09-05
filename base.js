@@ -7,7 +7,6 @@ function showAsideBar() {
   asideElement.style.display = "block";
   firstHeaderElement.style.display = "none";
   asideMenuButtonElement.style.transform = "scale(1.3)";
-  asideMenuButtonElement.style.marginRight = 0;
 }
 
 menuButtonElement.addEventListener("click", showAsideBar);

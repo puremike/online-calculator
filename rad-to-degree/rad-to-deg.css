@@ -1,0 +1,64 @@
+:root {
+  --background-color: rgb(90, 149, 236);
+  --h1-color: rgb(0, 0, 0);
+  --primary-color: #ffffff;
+  --hover-bg-color: rgb(10, 54, 119);
+  --btn-primary-color: rgb(24, 83, 172);
+}
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+#main-style {
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 6px rgba(29, 26, 27, 0.4);
+  padding: 1.3rem;
+  width: 32rem;
+  margin: 4rem auto 0 auto;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+input {
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  padding: 0.8rem 0.1rem;
+  text-align: center;
+}
+
+input:focus {
+  padding: 1.1rem 0;
+}
+
+button {
+  padding: 0.6rem 1.3rem;
+  border: 1px solid var(--background-color);
+  border-radius: 0.2rem;
+  color: rgb(230, 214, 214);
+  background-color: var(--btn-primary-color);
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: var(--hover-bg-color);
+}
+
+#BMI-result {
+  margin: 1rem auto;
+  width: 60%;
+  padding: 1.2rem;
+  background-color: var(--primary-color);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.12rem;
+  display: none;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 6px rgba(72, 6, 88, 0.2);
+}
